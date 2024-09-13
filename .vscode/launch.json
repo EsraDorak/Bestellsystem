@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Application_G4_feat",
+            "request": "launch",
+            "mainClass": "se1_bestellsystem/application.Application_G4_feat",
+            "projectName": "se1.bestellsystem"
+        },
+        {
+            "type": "java",
+            "name": "Application_C3",
+            "request": "launch",
+            "mainClass": "se1_bestellsystem/application.Application_C3",
+            "projectName": "se1.bestellsystem"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "se1_bestellsystem/application.Application",
+            "projectName": "se1.bestellsystem"
+        },
+        {
+            "type": "java",
+            "name": "Application_D2",
+            "request": "launch",
+            "mainClass": "se1_bestellsystem/application.Application_D2",
+            "projectName": "se1.bestellsystem"
+        },
+        {
+            "type": "java",
+            "name": "Application_E1_refactoring",
+            "request": "launch",
+            "mainClass": "se1_bestellsystem/application.Application_E1_refactoring",
+            "projectName": "se1.bestellsystem"
+        }
+    ]
+}

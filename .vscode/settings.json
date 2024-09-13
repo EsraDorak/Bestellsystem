@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": [
+    "src", "test"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/*.jar",
+    "junit-platform-console-standalone-1.9.2.jar"
+  ],
+  "code-runner.defaultLanguage": "java",
+  "code-runner.executorMap": {
+    "comment": "javac compiles all .java files && java runs Application with args: 1 2 3",
+    "java": "javac --module-path=lib/modules -d bin src/application/Application_E1_refactoring.java && java -cp bin application.Application_E1_refactoring"
+  }
+}
+
